@@ -114,6 +114,8 @@ input:focus,select:focus,textarea:focus{outline:2px solid var(--red);border-colo
 .gal img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:12px;border:1px solid var(--line);display:block}
 .gal-cta{display:flex!important;flex-direction:column;gap:6px;background:linear-gradient(135deg,#7f1d1d,#b91c1c);color:#fff!important;text-align:center;font-weight:900;font-size:16px;text-decoration:none;line-height:1.4}
 .hero-img{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:12px;border:1px solid var(--line);margin-bottom:12px;display:block}
+.gal a{position:relative;display:block}
+.views{position:absolute;left:8px;bottom:8px;background:rgba(0,0,0,.72);color:#fff;font-size:12px;font-weight:800;padding:3px 10px;border-radius:999px}
 .g-badge{display:flex;align-items:center;gap:12px;background:#15151a;border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin-bottom:18px;flex-wrap:wrap}
 .g-badge .g-logo{width:36px;height:36px;border-radius:50%;background:#fff;color:#4285F4;display:grid;place-items:center;font-weight:900;font-size:20px}
 /* FORM */
@@ -175,12 +177,12 @@ footer a{color:#fff;text-decoration:none}
       </div>
       <div class="hero-stats">
         <div class="hstat"><strong>4.9★</strong><span>Google Rating</span></div>
-        <div class="hstat"><strong>450+</strong><span>Facebook Likes</span></div>
+        <div class="hstat"><strong>450+</strong><span>Facebook Followers</span></div>
         <div class="hstat"><strong>150+</strong><span>Gym Check-ins</span></div>
       </div>
     </div>
     <div class="hero-card">
-      <img class="hero-img" src="https://images.unsplash.com/photo-1773289336885-8402d69f7f68?q=80&w=1200&auto=format&fit=crop" alt="Muay Thai pad training in a boxing ring" fetchpriority="high" />
+      <img class="hero-img" src="photos/fb-cover.jpg" alt="Kru Lanz Fitness Gym — Imus City, Cavite" fetchpriority="high" />
       <span class="badge">🥇 FIRST SESSION FREE • NO COMMITMENT</span>
       <h3 style="margin-top:10px">Start today — no experience needed</h3>
       <p class="hint">Beginners welcome • Hand wraps loaned • All fitness levels</p>
@@ -294,7 +296,7 @@ footer a{color:#fff;text-decoration:none}
 <section id="results">
   <div class="kicker">Proof, not promises</div>
   <h2 class="section-title">Real member wins</h2>
-  <div class="g-badge"><div class="g-logo">G</div><div><strong>4.9 out of 5 on Google</strong><br/><span class="hint">7 verified reviews · 450+ Facebook likes · Imus City, Cavite</span></div><a href="#join" class="btn btn-gold" style="margin-left:auto;padding:10px 20px">Train With Us →</a></div>
+  <div class="g-badge"><div class="g-logo">G</div><div><strong>4.9 out of 5 on Google</strong><br/><span class="hint">7 verified reviews · 450+ Facebook followers · Imus City, Cavite</span></div><a href="#join" class="btn btn-gold" style="margin-left:auto;padding:10px 20px">Train With Us →</a></div>
   <div class="grid-2">
     <div>
       <div class="testi active" id="t0"><div class="stars">★★★★★</div><h3>"Lost 12kg in 3 months — and learned to fight!"</h3><p>"Zero experience. Coaches scaled everything. Muay Thai 3x/week + meal guide. Best decision ever."<br/><strong>— J., 29, Member since 2024</strong></p></div>
@@ -309,14 +311,14 @@ footer a{color:#fff;text-decoration:none}
     <div>
       <div class="kicker">Inside the gym</div>
       <div class="gal">
-        <img src="https://images.unsplash.com/photo-1773289336885-8402d69f7f68?q=80&w=800&auto=format&fit=crop" alt="Muay Thai pad work in the ring" loading="lazy" />
-        <img src="https://images.unsplash.com/photo-1758778932701-76ef06971b93?q=80&w=800&auto=format&fit=crop" alt="Muay Thai sparring session" loading="lazy" />
-        <img src="https://images.unsplash.com/photo-1773289338370-6197ab131713?q=80&w=800&auto=format&fit=crop" alt="Muay Thai training in the gym" loading="lazy" />
-        <img src="https://images.unsplash.com/photo-1773289338000-c6d248b0ea36?q=80&w=800&auto=format&fit=crop" alt="Fighters sparring in a Muay Thai ring" loading="lazy" />
-        <img src="https://images.pexels.com/photos/8612030/pexels-photo-8612030.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Man and woman training Muay Thai in a boxing ring" loading="lazy" />
+        <img src="photos/fb-post1.jpg" alt="Training at Kru Lanz Fitness Gym" loading="lazy" />
+        <img src="photos/fb-post2.jpg" alt="Training at Kru Lanz Fitness Gym" loading="lazy" />
+        <img src="photos/fb-reel7.jpg" alt="Workout at Kru Lanz Fitness Gym" loading="lazy" />
+        <img src="photos/fb-reel4.jpg" alt="Training at Kru Lanz Fitness Gym" loading="lazy" />
+        <img src="photos/fb-reel8.jpg" alt="Kru Lanz Fitness Gym training" loading="lazy" />
         <a class="gal-cta" href="#join">📸<span>Your photo<br/>here — join now!</span></a>
       </div>
-      <p class="hint">Photos: Unsplash (Anastase Maragos) & Pexels — free to use. Swap in real gym photos anytime.</p>
+      <p class="hint">Real photos from the gym's official Facebook page.</p>
     </div>
   </div>
 </section>
@@ -327,11 +329,19 @@ footer a{color:#fff;text-decoration:none}
   <div class="container">
     <div class="kicker">Fresh from the gym</div>
     <h2 class="section-title">Follow the fight camp</h2>
-    <p class="section-sub">Live updates, training clips, promos and schedules — straight from the gym's official Facebook page.</p>
+    <p class="section-sub">Training reels, updates and promos — straight from the gym's official Facebook page. Tap any video to watch.</p>
+    <div class="card" style="margin-bottom:18px;border-left:4px solid var(--gold)"><p style="margin:0;font-size:17px">"Bakal lang kinakalawang, kondisyon hindi basta sipag lang. Wala ng karera sa kondisyon — ang goal nalang kahit senior na, malakas pa din at active. 💪"</p><p class="hint" style="margin:8px 0 0">— Kru Lanz Fitness Gym on Facebook, March 2025 · 27 reactions · <a href="https://www.facebook.com/p/Kru-Lanz-Fitness-Gym-100076342784628/" target="_blank" rel="noopener" style="color:var(--gold)">See the post →</a></p></div>
     <div class="grid-2">
       <div>
-        <iframe title="Kru Lanz Fitness Gym on Facebook" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fp%2FKru-Lanz-Fitness-Gym-100076342784628%2F&tabs=timeline&width=500&height=620&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true" width="100%" height="620" style="border:1px solid var(--line);border-radius:16px;overflow:hidden;background:#fff" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-        <p class="hint" style="text-align:center">Can't see the feed? <a href="https://www.facebook.com/p/Kru-Lanz-Fitness-Gym-100076342784628/" target="_blank" rel="noopener" style="color:var(--gold)">Open Facebook directly →</a></p>
+        <div class="gal">
+          <a href="https://www.facebook.com/reel/1413591646006586/" target="_blank" rel="noopener"><img src="photos/fb-reel2.jpg" alt="Kru Lanz Fitness Gym training reel" loading="lazy" /><span class="views">▶ 1.7K</span></a>
+          <a href="https://www.facebook.com/reel/2285501891620686/" target="_blank" rel="noopener"><img src="photos/fb-reel5.jpg" alt="Kru Lanz Fitness Gym training reel" loading="lazy" /><span class="views">▶ 1.7K</span></a>
+          <a href="https://www.facebook.com/reel/1150956469508498/" target="_blank" rel="noopener"><img src="photos/fb-reel1.jpg" alt="Kru Lanz Fitness Gym training reel" loading="lazy" /><span class="views">▶ 1.1K</span></a>
+          <a href="https://www.facebook.com/reel/435092572680257/" target="_blank" rel="noopener"><img src="photos/fb-reel3.jpg" alt="Kru Lanz Fitness Gym training reel" loading="lazy" /><span class="views">▶ 1.1K</span></a>
+          <a href="https://www.facebook.com/reel/565939668656380/" target="_blank" rel="noopener"><img src="photos/fb-reel4.jpg" alt="Kru Lanz Fitness Gym training reel" loading="lazy" /><span class="views">▶ 925</span></a>
+          <a href="https://www.facebook.com/reel/944678912838429/" target="_blank" rel="noopener"><img src="photos/fb-reel7.jpg" alt="Kru Lanz Fitness Gym training reel" loading="lazy" /><span class="views">▶ 442</span></a>
+        </div>
+        <p class="hint" style="text-align:center">Real training reels from the gym — tap any video to watch on Facebook.</p>
       </div>
       <div>
         <div class="card"><h3 style="margin-top:0">📍 Visit us in Imus</h3><p>Phase 8D, 11 Avenida Rizal,<br/>Imus City, Cavite, Philippines</p><p><a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&destination=Kru+Lanz+Fitness+Gym,+11+Avenida+Rizal,+Imus+City,+Cavite">Get Directions →</a></p><p><a class="btn btn-outline" target="_blank" rel="noopener" href="https://www.facebook.com/p/Kru-Lanz-Fitness-Gym-100076342784628/">Message on Facebook</a></p></div>
